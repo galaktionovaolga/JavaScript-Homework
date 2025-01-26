@@ -241,40 +241,55 @@ margin-right: 10px;
 .our_contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.contact_icon{
+.our_contact>div>h2{
+    margin-top: 112px;
+    padding-bottom: 60px;    
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 500;
+    }
+.contact .our_contact .contact_icon{
     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.contact_icon>div{
+    width: 255px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; 
 }
-.our_contact>div>h2{
-margin-top: 112px;
-padding-bottom: 60px;    
-font-family: Oswald;
-font-size: 36px;
-font-weight: 500;
+.contact_icon>div>div>img{
+margin-top: 0;
+font-size: 48px;
+line-height: 40.31px;
+text-align: center;
+
 }
-.our_contact .contact_icon>div{    
-    width: 225px;
-    height: 191px;
-}
-    .our_contact .contact_icon>div>h3:first-child{ 
-    padding-top: 92px;   
-    font-family: Oswald;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 35.57px;
-    text-align: center;    
-}
-.our_contact .contact_icon>div>h3:last-child{
+.contact_icon>div>div>h3{    
+padding-top: 36px;
+padding-bottom: 25px;   
 font-family: Oswald;
 font-size: 24px;
 font-weight: 500;
 line-height: 35.57px;
-text-align: center;    
+text-align: center;
 }
+.contact_icon>div>div>h4{    
+font-family: Oswald;
+font-size: 24px;
+line-height: 35.57px;
+text-align: center;
+}
+#mail{
+    color: #F7654A;
+}
+
 
 footer{
 margin-top: 60px;

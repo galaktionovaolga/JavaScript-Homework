@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Shop</title>
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Shop</h1>
+        </div>
+        <div class="nav-links">
+            <nav>
+                <ul>
+                    <!-- <li class="nav-link active">All</li>
+                    <li class="nav-link">Clothes</li>
+                    <li class="nav-link">Electronics</li>
+                    <li class="nav-link">Furniture</li>
+                    <li class="nav-link">Shoes</li> -->
+                </ul>
+            </nav>
+        </div>
+        <div class="cart-icon">
+            <span>🛒</span>
+            <div class="cart-count">0</div>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" placeholder="Type your wish" class="search-box">
+    </div>
+
+    <div class="products-container">
+        <!-- <div class="product-card">
+            <div class="product-image-container">
+                <img src="https://cdn3.pixelcut.app/7/10/ai_background_1_5b79cd8ea3_1ea97b2c5a.jpg " alt="product"
+                    class="product-image">
+                <div class="product-category">clothes</div>
+                <div class="product-select">+</div>
+            </div>
+            <div class="product-info">
+                <p class="product-title">Classic Red Pullover Hoodie</p>
+                <p class="product-price">$10</p>
+            </div>
+        </div> -->
+
+        <!-- <div class="product-card">
+            <div class="product-image-container">
+                <img src="https://cdn3.pixelcut.app/7/10/ai_background_1_5b79cd8ea3_1ea97b2c5a.jpg " alt="product"
+                    class="product-image">
+                <div class="product-category">clothes</div>
+                <div class="product-select">+</div>
+            </div>
+            <div class="product-info">
+                <p class="product-title">Classic Red Pullover Hoodie</p>
+                <p class="product-price">$10</p>
+            </div>
+        </div> -->
+    </div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+          <h2 class="cart-title">My Order</h2>
+          <button class="close-cart" id="closeCart">×</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+          <!-- Cart items will be added here -->
+          <!-- <div class="cart-item">
+            <img src="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+              alt="${item.title}" class="cart-item-image">
+            <div class="cart-item-details">
+              <div class="cart-item-title">Test</div>
+              <div class="cart-item-price">$100</div>
+              <div class="cart-item-actions">
+                <button class="quantity-btn decrease-quantity" data-id="${item.id}">-</button>
+                <span class="item-quantity">10</span>
+                <button class="quantity-btn increase-quantity" data-id="${item.id}">+</button>
+                <button class="remove-item" data-id="${item.id}">×</button>
+              </div>
+            </div>
+          </div> -->
+          <div class="empty-cart">Your cart is empty</div>
+        </div>
+        <div class="cart-footer">
+          <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotal">$0</span>
+          </div>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+      </div>
+
+</body>
+
+<script src="./scripts/script.js"></script>
+
+</html>
